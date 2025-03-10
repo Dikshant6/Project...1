@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume {
+    display: flex;
+    width: 800px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.945);
+}
+
+.left-section {
+    width: 30%;
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.contact, .skills, .languages {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(124, 122, 122);
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+
+.about, .education, .experience {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.education p, .experience p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+b {
+    color: #222;
+}
